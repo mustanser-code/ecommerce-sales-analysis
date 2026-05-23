@@ -1,1 +1,2 @@
-
+First load the dataset using pandas, then understand the data using head(), info(), and isnull().sum().
+After checking the dataset, remove duplicate rows, handle missing values using fillna() or dropna(), fix data types if needed, and create useful columns like total_amount. Then check the dataset again to make sure cleaning is complete, and finally save the cleaned dataset using "df.to_csv("clean.csv", index=False)".
